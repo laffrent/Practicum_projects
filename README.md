@@ -18,3 +18,4 @@
 |13| [Проект для «Викишоп». Поиск токсичных комментариев.](https://github.com/) | Построение модели NLP для поиска токсичных комментарии и отправки их на модерацию| `pandas` , `matplotlib`, `numpy`, `scikit-learn`, `seaborn`, `NLTK`, `re`, `catboost`, `xgboost`, `lightgbm`|
 |14| [Определение возраста покупателей](https://github.com/) |Построение модели, которая по фотографии определит приблизительный возраст человека. | `pandas` , `matplotlib`, `numpy`, `seaborn`, `keras`|
 |15| [Финальный проект. Промышленность.](https://github.com/) |Оптимизация производственных расходов с помощью построения модели предсказания температуры. | `pandas` , `matplotlib`, `numpy`, `scikit-learn`, `seaborn`, `catboost`, `xgboost`, `lightgbm`|
+\
