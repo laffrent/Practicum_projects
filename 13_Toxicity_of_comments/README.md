@@ -1,21 +1,7 @@
-# Practicum_projects
-Репозиторий с проектами программы курсов Яндекс Практикум по направлению Data Science.
+# Проект для «Викишоп»
 
-| № | Название проекта  | Краткое описание | Инструменты |
-|--|--|--|--|
-|1| [Яндекс Музыка](https://github.com/laffrent/Practicum_projects/blob/main/01_Ya_music_users_comparison/Ya_music_users.ipynb) | Исследование поведения пользователей Яндекс Музыки двух столиц. | `pandas` |
-|2| [Исследование надёжности заёмщиков](https://github.com/laffrent/Practicum_projects/blob/main/02_Bank_borrowers_reliability/BankBorrowersReliability.ipynb) | Проанализировать статистику о платёжеспособности клиентов кредитного отдела банка. | `pandas` |
-|3| [Исследование объявлений о продаже квартир](https://github.com/laffrent/Practicum_projects/blob/main/03_Apartment%20sales/ApartmentsSales.ipynb) | На основании данных сервиса Яндекс.Недвижимость определить рыночную стоимость объектов недвижимости и установить параметры, которые помогут отследить аномалии и мошенническую деятельность. | `pandas` , `matplotlib`, `seaborn`|
-|4| [Определение перспективного тарифа для телеком-компании](https://github.com/laffrent/Practicum_projects/tree/main/04_Tariff%20analysis) | Исследование поведения клиентов, на основании предварительного анализа тарифов на небольшой выборке клиентов, и выявление лучшего тарифа для определенной категории клиентов. | `pandas` , `matplotlib`, `numpy`, `scipy`|
-|5| [Сборный проект. Продажа игр.](https://github.com/laffrent/Practicum_projects/blob/main/05_Games_sales/GamesSales.ipynb) | Исследование продажи игр по всему миру с целью выявить определяющие успешность игры закономерности. | `pandas` , `matplotlib`, `numpy`, `scipy`, `seaborn`|
-|6| [Рекомендация тарифов](https://github.com/laffrent/Practicum_projects/blob/main/06_Tarif_recomendation/TariffRecomendation.ipynb) | Построение модели для задачи классификации, которая способна проанализировать поведение клиентов и предложить пользователям новый тариф. | `pandas` , `matplotlib`, `numpy`, `seaborn`, `scikit-learn`, `catboost`|
-|7| [Отток клиентов](https://github.com/laffrent/Practicum_projects/blob/main/07_Bank_customer_churn/Bank_customer_churn.ipynb) | Построение модели прогноза оттока клиентов из банка. | `pandas` , `matplotlib`, `numpy`, `seaborn`, `scikit-learn`|
-|8| [Выбор локации для скважины](https://github.com/laffrent/Practicum_projects/blob/main/08_Oil_search/OilSearch.ipynb) | Построение модели машинного обучения, которая поможет определить регион, где добыча принесёт наибольшую прибыль. Анализ возможной прибыль и риски техникой _Bootstrap._ | `pandas` , `matplotlib`, `numpy`, `seaborn`, `scikit-learn`|
-|9| [Восстановление золота из руды](https://github.com/laffrent/Practicum_projects/blob/main/09_Gold_mining/GoldMining.ipy) | Построение модели, которая должна предсказать коэффициент восстановления золота из золотосодержащей руды. Модель поможет оптимизировать производство, чтобы не запускать предприятие с убыточными характеристиками. | `pandas` , `matplotlib`, `numpy`, `seaborn`, `scikit-learn`|
-|10| [Защита персональных данных клиентов](https://github.com/) | Разработка метода преобразования данных, чтобы по ним было сложно восстановить персональную информацию.| `pandas` , `matplotlib`, `numpy`, `scikit-learn`|
-|11| [Определение стоимости автомобилей](https://github.com/) | Построение модели для быстрого определения стоимости автомобилей | `pandas` , `matplotlib`, `numpy`, `scikit-learn`, `seaborn`, `catboost`, `xgboost`, `lightgbm`|
-|12| [Прогнозирование количество заказов такси](https://github.com/KirillErokhin/yandex_practicum_DS_projects/tree/main/12_time_series) | Построение модели прогнозирования количества заказов такси на следующий час, чтобы привлекать больше водителей в период пиковой нагрузки.| `pandas` , `matplotlib`, `numpy`, `scikit-learn`, `seaborn`, `catboost`, `xgboost`, `lightgbm`|
-|13| [Проект для «Викишоп». Поиск токсичных комментариев.](https://github.com/) | Построение модели NLP для поиска токсичных комментарии и отправки их на модерацию| `pandas` , `matplotlib`, `numpy`, `scikit-learn`, `seaborn`, `NLTK`, `re`, `catboost`, `xgboost`, `lightgbm`|
-|14| [Определение возраста покупателей](https://github.com/) |Построение модели, которая по фотографии определит приблизительный возраст человека. | `pandas` , `matplotlib`, `numpy`, `seaborn`, `keras`|
-|15| [Финальный проект. Промышленность.](https://github.com/) |Оптимизация производственных расходов с помощью построения модели предсказания температуры. | `pandas` , `matplotlib`, `numpy`, `scikit-learn`, `seaborn`, `catboost`, `xgboost`, `lightgbm`|
-\
+Интернет-магазин «Викишоп» запускает новый сервис. Теперь пользователи могут редактировать и дополнять описания товаров, как в вики-сообществах. То есть клиенты предлагают свои правки и комментируют изменения других. Магазину нужен инструмент, который будет искать токсичные комментарии и отправлять их на модерацию. 
+
+Необходимо обучить модель классифицировать комментарии на позитивные и негативные. В вашем распоряжении набор данных с разметкой о токсичности правок.
+
+Значение метрики качества *F1* не меньше 0.75. 
