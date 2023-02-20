@@ -1,11 +1,11 @@
 # Practicum_projects
 Репозиторий с проектами программы курсов Яндекс Практикум по направлению Data Science.
 
-| № | Название проекта  | Краткое описание | Инструменты |
-|--|--|--|--|
+| № | Название проекта  | Краткое описание | Инструменты | Результат |
+|--|--|--|--|--|
 |1| [Яндекс Музыка](https://github.com/laffrent/Practicum_projects/blob/main/01_Ya_music_users_comparison/Ya_music_users.ipynb) | Исследование поведения пользователей Яндекс Музыки двух столиц. | `python`, `pandas` |
 |2| [Исследование надёжности заёмщиков](https://github.com/laffrent/Practicum_projects/blob/main/02_Bank_borrowers_reliability/BankBorrowersReliability.ipynb) | Проанализировать статистику о платёжеспособности клиентов кредитного отдела банка. | `python`, `pandas` |
-|3| [Исследование объявлений о продаже квартир](https://github.com/laffrent/Practicum_projects/blob/main/03_Apartment%20sales/ApartmentsSales.ipynb) | На основании данных сервиса Яндекс.Недвижимость определить рыночную стоимость объектов недвижимости и установить параметры, которые помогут отследить аномалии и мошенническую деятельность. | `python`, `pandas` , `matplotlib`, `seaborn`|
+|3| [Исследование объявлений о продаже квартир](https://github.com/laffrent/Practicum_projects/blob/main/03_Apartment_sales/ApartmentsSales.ipynb) | На основании данных сервиса Яндекс.Недвижимость определить рыночную стоимость объектов недвижимости и установить параметры, которые помогут отследить аномалии и мошенническую деятельность. | `python`, `pandas` , `matplotlib`, `seaborn`|
 |4| [Определение перспективного тарифа для телеком-компании](https://github.com/laffrent/Practicum_projects/blob/main/04_Tariff_analysis/Tariff_analy.ipynb) | Исследование поведения клиентов, на основании предварительного анализа тарифов на небольшой выборке клиентов, и выявление лучшего тарифа для определенной категории клиентов. | `python`, `pandas` , `matplotlib`, `numpy`, `scipy`|
 |5| [Сборный проект. Продажа игр.](https://github.com/laffrent/Practicum_projects/blob/main/05_Games_sales/GamesSales.ipynb) | Исследование продажи игр по всему миру с целью выявить определяющие успешность игры закономерности. | `python`, `pandas` , `matplotlib`, `numpy`, `scipy`, `seaborn`|
 |6| [Рекомендация тарифов](https://github.com/laffrent/Practicum_projects/blob/main/06_Tarif_recomendation/TariffRecomendation.ipynb) | Построение модели для задачи классификации, которая способна проанализировать поведение клиентов и предложить пользователям новый тариф. | `python`, `pandas` , `matplotlib`, `numpy`, `seaborn`, `scikit-learn`, `catboost`|
