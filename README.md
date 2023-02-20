@@ -1,8 +1,8 @@
 # Practicum_projects
 Репозиторий с проектами программы курсов Яндекс Практикум по направлению Data Science.
 
-| № | Название проекта  | Краткое описание | Инструменты | Результат |
-|--|--|--|--|--|
+| № | Название проекта  | Описание | Инструменты |
+|--|--|--|--|
 |1| [Яндекс Музыка](https://github.com/laffrent/Practicum_projects/blob/main/01_Ya_music_users_comparison/Ya_music_users.ipynb) | Исследование поведения пользователей Яндекс Музыки двух столиц. | `python`, `pandas` |
 |2| [Исследование надёжности заёмщиков](https://github.com/laffrent/Practicum_projects/blob/main/02_Bank_borrowers_reliability/BankBorrowersReliability.ipynb) | Проанализировать статистику о платёжеспособности клиентов кредитного отдела банка. | `python`, `pandas` |
 |3| [Исследование объявлений о продаже квартир](https://github.com/laffrent/Practicum_projects/blob/main/03_Apartment_sales/ApartmentsSales.ipynb) | На основании данных сервиса Яндекс.Недвижимость определить рыночную стоимость объектов недвижимости и установить параметры, которые помогут отследить аномалии и мошенническую деятельность. | `python`, `pandas` , `matplotlib`, `seaborn`|
